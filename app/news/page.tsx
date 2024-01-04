@@ -23,13 +23,17 @@ export default async function ProjectsPage() {
   const featured = allProjects.find((project) => project.slug === "stupa")!;
   const top2 = allProjects.find((project) => project.slug === "geryurt")!;
   const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const top4 = allProjects.find((project) => project.slug === "heronsway-amazon")!;
+  const top5 = allProjects.find((project) => project.slug === "book_secret_history")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
       (project) =>
         project.slug !== featured.slug &&
         project.slug !== top2.slug &&
-        project.slug !== top3.slug,
+        project.slug !== top3.slug &&
+        project.slug !== top4.slug &&
+        project.slug !== top5.slug ,
     )
     .sort(
       (a, b) =>
