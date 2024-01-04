@@ -26,7 +26,7 @@ const socials = [
 
 export default function Example() {
 	return (
-		<div className=" bg-gradient-to-tl from-zinc-800/0 via-zinc-800 to-zinc-800/0">
+		<div className=" bg-gradient-to-tl bg-[#e5e5e5]">
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-1 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
@@ -38,10 +38,10 @@ export default function Example() {
                                       className="relative flex flex-col items-center gap-3 duration-700 group md:gap-4 md:py-24 lg:pb-48 md:p-16 py-3"
                                     >
                                       <span
-                                        className="absolute w-px h-2/6 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
+                                        className="absolute w-px h-2/6 bg-gradient-to-b text-[#14213d]to-transparent"
                                         aria-hidden="true"
                                       />
-                                      <div className="relative flex items-center justify-center duration-1000 border text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
+                                      <div className="relative flex items-center justify-center duration-1000 border text-[#14213d] group-hover:text-black group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
                                         {/* Render the image using the Next.js Image component */}
                                         <Image
                                           src={s.Image}
@@ -51,15 +51,15 @@ export default function Example() {
                                         />
                                       </div>{" "}
                                       <div className="flex flex-col items-center">
-                                        <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
+                                        <span className="lg:text-xl font-medium duration-150 xl:text-3xl text-[#14213d] group-hover:text-black font-display">
                                           {s.bookname}
                                         </span>
-                                        <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                                        <span className="mt-4 text-sm text-center duration-1000 text-[#14213d]group-hover:text-black">
                                           {s.Description}
                                         </span>
                                         <button
                     type="button"
-                    className="w-2/5 p-3 text-sm text-center rounded sm:w-1/3 text-zinc-400 hover:text-zinc-100 bg-zinc-700 hover:bg-zinc-500"
+                    className="w-2/5 p-3 text-sm text-center rounded sm:w-1/3 text-zinc-400 hover:text-white bg-zinc-700 hover:bg-black"
                   >
                     Buy
                   </button>
