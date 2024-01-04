@@ -11,6 +11,10 @@ const socials = [
 		href: "https://www.amazon.com/Herons-Way-Adventures-Became-Chinggis/dp/B0CQNPLHCK/ref=sr_1_2?crid=3KYNC3QII64E7&keywords=Heron%27s+Way&qid=1704350260&refinements=p_n_feature_nine_browse-bin%3A3291437011&rnid=3291435011&s=books&sprefix=heron%27s+way%2Caps%2C360&sr=1-2",
 		Description: "Dive into the captivating tale of 'Heron's Way' where ancient Mongolia's mystique sets the stage. Follow Temujin, a scrawny boy bound by fate to become Chinggis Khan—the renowned, enigmatic leader. Marked by a birthmark, Temujin's journey from captivity to legendary leadership unfolds against a backdrop of nomadic tribes and shifting alliances. As a white falcon soars, it symbolizes power for these tribes. His escape from captors, his alliance with Tahir, an Arab merchant, and their journey along the Silk Road intricately weave his destiny. Mystical powers emerge, along with unexpected allies. On this journey, cultural diversity, spiritual quests, and the enigma of destiny converge. From a Taoist monastery to a Christian mission, Temujin evolves, embracing his extraordinary path. As the 'saint' of Tangut Christians, his fate takes an unforeseen turn. Amidst rugged landscapes and historical tapestries, 'Heron's Way' intertwines adventure, spirituality, and destiny. It's a mesmerizing saga that will captivate readers of historical fiction and young adult adventures alike.",
 		bookname: "Heron's Way",
+    pagecount: 148,
+    releasedate: '2023-12-15',
+    trailer: "https://www.youtube.com/watch?v=qlS97wcqSTw"
+
 	},
 	{
 		Image: "/book-secretHistory.jpg",
@@ -22,22 +26,22 @@ const socials = [
 
 export default function Example() {
 	return (
-		<div className=" bg-gradient-to-tl from-zinc-800/0 via-zinc-800 to-zinc-800/0 relative">
+		<div className=" bg-gradient-to-tl from-zinc-800/0 via-zinc-800 to-zinc-800/0">
 			<Navigation />
-			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
+			<div className="container flex items-center justify-center min-h-screen px-1 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
 					{socials.map((s) => (
 						<Card key={s.href}>
                                     <Link
                                       href={s.href}
                                       target="_blank"
-                                      className="relative flex flex-col items-center gap-3 duration-700 group md:gap-4 md:py-24 lg:pb-48 md:p-16"
+                                      className="relative flex flex-col items-center gap-3 duration-700 group md:gap-4 md:py-24 lg:pb-48 md:p-16 py-3"
                                     >
                                       <span
-                                        className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
+                                        className="absolute w-px h-2/6 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
                                         aria-hidden="true"
                                       />
-                                      <div className="relative flex items-center justify-center w-500 h-500 text-sm duration-1000 border text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
+                                      <div className="relative flex items-center justify-center duration-1000 border text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">
                                         {/* Render the image using the Next.js Image component */}
                                         <Image
                                           src={s.Image}
@@ -53,6 +57,12 @@ export default function Example() {
                                         <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
                                           {s.Description}
                                         </span>
+                                        <button
+                    type="button"
+                    className="w-2/5 p-3 text-sm text-center rounded sm:w-1/3 text-zinc-400 hover:text-zinc-100 bg-zinc-700 hover:bg-zinc-500"
+                  >
+                    Buy
+                  </button>
                                       </div>
                                     </Link>
                                   </Card>

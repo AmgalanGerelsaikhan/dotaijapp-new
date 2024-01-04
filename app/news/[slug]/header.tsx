@@ -67,7 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://twitter.com/chronark_">
+						<Link target="_blank" href="https://www.facebook.com/Kozak.Tsogo">
 							<Facebook
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
@@ -76,7 +76,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://github.com/chronark">
+						<Link target="_blank" href="https://www.youtube.com/@DoTaijMogul">
 							<Youtube
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
