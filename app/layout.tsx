@@ -6,23 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Dotaij.com",
+    template: "",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Author website",
   openGraph: {
-    title: "chronark.com",
+    title: "dotaij.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+      "Author and Historion portfolio website",
+    url: "https://dotaij.com",
+    siteName: "dotaij.com",
     locale: "en-US",
     type: "website",
   },
@@ -38,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "dotaij",
     card: "summary_large_image",
   },
   icons: {
