@@ -20,8 +20,8 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
+  const featured = allProjects.find((project) => project.slug === "stupa")!;
+  const top2 = allProjects.find((project) => project.slug === "geryurt")!;
   const top3 = allProjects.find((project) => project.slug === "highstorm")!;
   const sorted = allProjects
     .filter((p) => p.published)
@@ -75,6 +75,11 @@ export default async function ProjectsPage() {
                 </div>
  </section>
 
+ <div className="max-w-2xl mx-auto lg:mx-0">
+          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+          Author Projects
+          </h2>
+        </div>
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
           <Card>
             <Link href={`/projects/${featured.slug}`}>
@@ -126,7 +131,7 @@ export default async function ProjectsPage() {
           </div>
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
-
+{ /*
         <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
           <div className="grid grid-cols-1 gap-4">
             {sorted
@@ -156,6 +161,7 @@ export default async function ProjectsPage() {
               ))}
           </div>
         </div>
+*/}
       </div>
     </div>
   );

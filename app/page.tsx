@@ -6,7 +6,7 @@ import Image from "next/image";
 const navigation = [
   { name: "Biography", href: "/projects" },
   { name: "Books", href: "/books" },
-  { name: "News", href: "/projects" },
+  { name: "News", href: "/news" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -44,7 +44,7 @@ export default function Home() {
       alt="Picture of the author"
           /> */}
         <h2 className="text-sm text-zinc-500 ">
-        I am a Mongolian author and Historian residing in Ukraine. Within my words, I invite you to unravel the lesser-known chapters of Chinggis Khan's early life, a period marked by the vibrant tapestry of Eurasian history. In this dynamic era, nomadic tribes grappled with formidable challenges amidst a shifting world where sedentary societies gained prominence. Join me on this literary journey to explore the compelling youth of ChinggisKhan, a time when the nomads navigated the complexities of a changing world with resilience and determination.
+        I am a Mongolian author and Historian residing in Ukraine. Within my words, I invite you to unravel the lesser-known chapters of Chinggis Khan's early life, a period marked by the vibrant tapestry of Eurasian history. In this dynamic era, nomadic tribes grappled with formidable challenges amidst a shifting world where sedentary societies gained prominence. Join me on this literary journey to explore the compelling youth of Chinggis Khan, a time when the nomads navigated the complexities of a changing world with resilience and determination.
         </h2>
       </div>
     </div>
