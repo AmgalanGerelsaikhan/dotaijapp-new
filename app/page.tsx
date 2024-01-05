@@ -29,7 +29,7 @@ export default function Home() {
       <div className="" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={1000}
+        quantity={200}
       />
       <h1 className="z-5 text-2xl text-transparent duration-75 bg-black cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-6xl whitespace-nowrap bg-clip-text ">
         DO TAIJ MOGUL
