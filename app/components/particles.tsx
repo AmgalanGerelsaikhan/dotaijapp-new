@@ -124,7 +124,7 @@ export default function Particles({
       context.current.translate(translateX, translateY);
       context.current.beginPath();
       context.current.arc(x, y, size, 0, 2 * Math.PI);
-      context.current.fillStyle = `rgba(0, 0, 0, 0.6)`; // Set alpha to 0.6 for all particles
+      context.current.fillStyle = `rgba(0, 0, 0, 6)`; // Set alpha to 0.6 for all particles
       context.current.fill();
       context.current.setTransform(dpr, 0, 0, dpr, 0, 0);
 

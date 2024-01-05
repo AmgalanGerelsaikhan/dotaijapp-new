@@ -38,9 +38,9 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right" />
       <div className="my-8 text-center animate-fade-in">
      <Image
-      src="/author_swipper.jpg"
+      src="/welcome_author.jpg"
       width={1000}
-      height={1000}
+      height={700}
       className='rounded relative'
       alt="Picture of the author"
           />
