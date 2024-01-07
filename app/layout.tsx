@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "Dotaij.com",
+    default: "dotaij.com | Welcome to my web site",
     template: "",
   },
   description: "Author website",
