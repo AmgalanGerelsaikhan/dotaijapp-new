@@ -61,15 +61,13 @@ export default async function ProjectsPage() {
               </div>
               <div className="text-justify">
                 <h1 id="authorBio" className="mt-4 text-[#14213d]" >
-                  Do Taij Mogul (Tsogtsaikhan Tsedensonom), a dedicated author and historian, immerses himself in the past to resurrect forgotten stories. Inspired by Ukrainian historian D.R. Dashkevych, he translated the ancient Mongolian historical book, 'The Secret History of the Mongols,' into Ukrainian, completing the project in 2022. This endeavor underscores the text's crucial role in understanding Ukraine's rich heritage.
+                  Do Taij Mogul (Tsogtsaikhan Tsedensonom) a dedicated author, delves into the depths of the past to bring forgotten stories to life. His passion for history led him to translate the ancient Mongolian historical book, "Secret History of Mongols," into Ukrainian, a labor of love he completed in 2022. This project, inspired by the esteemed Ukrainian historian D.R. Dashkevich, underscores the text's vital role in understanding Ukraine's rich heritage.
               </h1>
                 <p className="mt-4 text-[#14213d]">
-                  His scholarly pursuits led him to unveil hidden facets of Chinggis Khan's youth in the twelfth century. This profound research became the foundation for his debut work, 'Heron's Way' the first volume in an exhilarating series of adventure novels. Published by 'Summit Kniga' in Ukraine under the pseudonym Do Taij Mogul, the book chronicles the enigmatic years of the future Great Khan, when he was known as Temujin. Now available in English.
+                In his scholarly pursuits, Do Taij unearthed hidden facets of Chinggis Khan's youth during the 12th century. This profound research became the foundation for his debut work, "Heron’s Way," the inaugural installment( first ) in a series of gripping adventure novels. First Published by Summit Kniga in Ukraine under his pen name, Do Taij Mogul, the book illuminates the enigmatic years of the future Great Khan when he was known as Temujin. Now available in English and Ukraine languages.
                 </p>
               
-                <p className="py-3">In addition to his literary accomplishments, Tsogtsaikhan translated 'The Secret History of the Mongols' into Ukrainian from 2011 to 2022, with the book published in 2023, featuring 388 annotations. Influenced by D.R. Dashkevych, he emphasizes the importance of understanding Ukrainian history through this ancient text.
-                </p>
-                <p className="py-3">Do Taij Mogul's personal life includes marriage and raising two sons, Tamir (born in 2011) and Tengis (born in 2016). His multifaceted journey reflects a commitment to education, activism, literature, and cross-cultural exchange, making him a notable figure in Mongolia's contemporary landscape.
+                <p className="py-3">Through meticulous research and captivating storytelling, Do Taij Mogul enriches our understanding of the past, weaving narratives that bridge cultures and eras. His literary contributions stand as a testament to the power of historical storytelling, connecting readers with the timeless echoes of bygone times.
                 </p>
                 </div>
  </section>

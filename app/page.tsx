@@ -31,16 +31,16 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={200}
       />
-      <h1 className="z-5 text-2xl text-transparent duration-75 bg-black cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-6xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-4 text-2xl text-transparent duration-75 bg-black cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-6xl whitespace-nowrap bg-clip-text ">
         DO TAIJ MOGUL
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right" />
       <div className="my-8 text-center animate-fade-in">
      <Image
-      src="/welcome_author.jpg"
-      width={1000}
-      height={700}
+      src="/hero_pic.jpg"
+      width={800}
+      height={600}
       className='rounded relative'
       alt="Picture of the author"
           />
