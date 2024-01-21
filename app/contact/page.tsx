@@ -19,9 +19,9 @@ const socials = [
 	},
 	{
 		icon: <Facebook size={20} />,
-		href: "https://www.facebook.com/Kozak.Tsogo",
+		href: "https://www.facebook.com/DoTaijMogul",
 		label: "Facebook",
-		handle: "Козак Tsogo",
+		handle: "Do Taij Mogul, Author",
 	},
 ];
 
