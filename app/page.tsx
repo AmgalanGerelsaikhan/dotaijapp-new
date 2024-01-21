@@ -26,7 +26,6 @@ export default function Home() {
           ))}
         </ul>
       </nav>
-      <div className="" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={10}
@@ -46,7 +45,22 @@ export default function Home() {
           />
       </div>
 
+{ /*
+      <div className="my-8">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qlS97wcqSTw" // Replace with your YouTube video embed URL
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    */  
+}
     </div>
+
   );
 
 }
