@@ -59,7 +59,7 @@ sm:text-3xl md:text-3xl">
             href="https://www.amazon.com/Herons-Way-Adventures-Became-Chinggis-ebook/dp/B0CS6JRRYC/ref=sr_1_3?crid=30E00WFQOLEEZ&keywords=Heron%27s+way&qid=1705191079&refinements=p_n_feature_nine_browse-bin%3A3291437011&rnid=3291435011&s=books&sprefix=heron%27s+way%2Caps%2C277&sr=1-3"
             className="underline duration-500 hover:text-zinc-300"
           >
-            Amazon. Get your Copy Today!
+            Amazon. Get your copy Today!
           </Link>
         </h1>
 
