@@ -4,7 +4,7 @@ import Particles from "./components/particles";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Biography", href: "/projects" },
+  { name: "Biography", href: "/biography" },
   { name: "Books", href: "/book" },
   { name: "News", href: "/news" },
   { name: "Contact", href: "/contact" },
